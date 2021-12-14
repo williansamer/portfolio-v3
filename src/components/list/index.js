@@ -1,13 +1,17 @@
-import React from 'react'
-import Data from '../data/index'
+import React, {useContext} from 'react'
 import './index.css'
 
+import {MyContext} from '../context/contextAPI'
+
 export default function List() {
+
+  const {data} = useContext(MyContext);
+
   return (
-    <div>
-      {Data.map((d, index)=>
-      <div className='container--list' key={index} >
-        <img className='list--img' src={`../../images/cover/${d.cover}`}></img>
+    <div className='container--list'>
+      {data.map((d, index)=>
+      <div className='container--list--item' key={index} >
+        <img className='list--item--img' src={`../../images/cover/${d.cover}`} alt="projetos"></img>
       </div>)}
     </div>
   )

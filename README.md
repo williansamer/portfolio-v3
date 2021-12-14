@@ -1,6 +1,6 @@
 # Meu Site - Portfolio-v3
 
-- Portfolio mais recente com todos os meus trabalhos, além de uma apresentação de vídeo sobre minha pessoas, meus objetivos e metas.
+- Portfolio mais recente com todos os meus trabalhos, além de uma apresentação de vídeo sobre minha pessoa, meus objetivos e metas.
 
 ## Por que fazer um novo portfolio?
 
