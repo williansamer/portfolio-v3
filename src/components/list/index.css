@@ -1,0 +1,15 @@
+.container--list{
+  width: 200px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.list--img{
+  width: inherit;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+.list--img:hover{
+  transform: scale(1);
+}
