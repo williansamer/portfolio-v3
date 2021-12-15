@@ -1,15 +1,15 @@
 import React, {createContext, useState, useEffect} from 'react';
 
-import Data from '../data/index'
+import data from '../data/index'
 
 export const MyContext = createContext();
 
 export default function ContextProvider({children}){
-  
-  const data = Data;
   const [featuredData, setFeaturedData] = useState([]);
   const [blackHeader, setBlackHeader] = useState(false);
-  const [modal, setModal] = React.useState(false);
+  const [modalIntroduce, setModalIntroduce] = React.useState(false);
+  const [modalPortfolio, setModalPortfolio] = React.useState(false);
+  const [item, setItem] = React.useState([]);
 
   useEffect(()=>{
     const loadFeaturedData = async () => {
@@ -18,9 +18,7 @@ export default function ContextProvider({children}){
       setFeaturedData(sortedFeatured);
     }
     loadFeaturedData();
-  }, []);
 
-  useEffect(()=>{
     const isBlackHeader = ()=>{
       if(window.scrollY > 10){
         setBlackHeader(true);
@@ -30,18 +28,18 @@ export default function ContextProvider({children}){
     }
     window.addEventListener('scroll', isBlackHeader);
 
-    const showModal = ()=>{
-      if(!localStorage.getItem('modal')){
-        setModal(true);
-        localStorage.setItem('modal', true);
+    const showModalIntroduce = ()=>{
+      if(!localStorage.getItem('modalIntroduce')){
+        setModalIntroduce(true);
+        localStorage.setItem('modalIntroduce', true);
       }
     }
 
-    window.addEventListener('DOMContentLoaded', showModal);
+    window.addEventListener('DOMContentLoaded', showModalIntroduce);
   }, []);
 
   return(
-    <MyContext.Provider value={{data, featuredData, blackHeader, modal, setModal}}>
+    <MyContext.Provider value={{data, featuredData, blackHeader, modalIntroduce, setModalIntroduce, modalPortfolio, setModalPortfolio, item, setItem}}>
       {children}
     </MyContext.Provider>
   )

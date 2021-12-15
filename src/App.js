@@ -1,15 +1,18 @@
 import './App.css';
 import React from 'react';
+
 import Header from './components/header'
 import Featured from './components/featured';
 import List from './components/list';
-import Modal from './components/modal';
+import ModalInt from './components/modalInt';
+import ModalPort from './components/modalPort';
 
 function App() {
 
   return (
     <div className="App">
-      <Modal />
+      <ModalInt />
+      <ModalPort />
       <Header />
       <main>
         <Featured />
