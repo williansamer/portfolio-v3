@@ -30,7 +30,7 @@
   text-shadow: 1px 1px 1px rgb(158, 158, 158);
 }
 
-.header--menu a{
+.header--menu a, .header--menu div{
   margin-left: 30px;
   cursor: pointer;
   transition: all ease 0.2s;
@@ -38,7 +38,7 @@
   color: white;
   text-decoration: none;
 }
-.header--menu a:hover{
+.header--menu a:hover, .header--menu div:hover{
   color: rgb(74, 150, 250);
   font-weight: bold;
 }

@@ -3,11 +3,13 @@ import React from 'react';
 import Header from './components/header'
 import Featured from './components/featured';
 import List from './components/list';
+import Modal from './components/modal';
 
 function App() {
 
   return (
     <div className="App">
+      <Modal />
       <Header />
       <main>
         <Featured />

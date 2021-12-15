@@ -1,0 +1,44 @@
+.modal{
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  flex-direction: column;
+  justify-content: center;
+}
+
+iframe{
+  align-self: center;
+}
+
+.modal--close{
+  padding: 5px;
+  width: 40px;
+  margin-right: 30px;
+  font-size: 2.5em;
+  text-align: right;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.modal--goals{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.modal--container{
+  width: 300px;
+  text-align: justify;
+}
+.modal--title{
+  color: rgb(74, 150, 250);
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
