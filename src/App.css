@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
 *{
   box-sizing: border-box;
 }
@@ -13,4 +15,41 @@ body{
 
 .App {
   text-align: center;
+}
+
+footer{
+  margin: 30px;
+}
+
+.footer--title{
+  color: rgb(0, 110, 255);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.footer--links{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a{
+  margin: 0 30px;
+  color: #222;
+  background-color: #ccc;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.2s;
+}
+footer a:hover{
+  background-color: white;
+}
+
+.footer--direitos{
+  text-align: right;
 }

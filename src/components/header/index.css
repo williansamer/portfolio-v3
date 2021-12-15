@@ -1,0 +1,44 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: all ease 0.2s;
+}
+
+.header--black{
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.header--menu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header--logo{
+  font-size: 1.7em;
+  font-weight: 600;
+  color: rgb(0, 110, 255);
+  text-shadow: 1px 1px 1px rgb(158, 158, 158);
+}
+
+.header--menu a{
+  margin-left: 30px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+.header--menu a:hover{
+  color: rgb(74, 150, 250);
+  font-weight: bold;
+}

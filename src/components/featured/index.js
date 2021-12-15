@@ -31,6 +31,12 @@ export default function Featured() {
           <div className='featured--tech'>
             Tecnologias Utilizadas: {featuredData.tech}
           </div>
+          <div className='featured--buttons'>
+            <a className='linkedin' href='https://www.linkedin.com/in/willian-samer-oliveira-796ab3221/' target="_blank" rel="noreferrer">Linkedin</a>
+            <a className='repo' href={featuredData.gitRepo} target="_blank" rel="noreferrer">Repositório</a>
+            {featuredData.gitPage !== "" && 
+            <a className='page' href={featuredData.gitPage} target="_blank" rel="noreferrer">GitHub Page</a>}
+          </div>
         </div>
       </div>
 

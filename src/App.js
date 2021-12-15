@@ -13,7 +13,15 @@ function App() {
         <Featured />
         <List />
       </main>
-      <footer>FOOTER</footer>
+      <footer>
+        <div className='footer--title' id='contatos'>Contatos</div>
+        <div className='footer--links'>
+          <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/willian-samer-oliveira-796ab3221/'><img src='./images/icons/linkedin.png' alt='linkedin'/>Linkedin</a>
+          <a target="_blank" rel="noreferrer" href='https://web.whatsapp.com/'><img src='./images/icons/whatsapp.png' alt='whatsapp'/>17 981622464</a>
+          <a target="_blank" rel="noreferrer" href='https://github.com/williansamer'><img src='./images/icons/github.png' alt='linkedin'/>GitHub</a>
+        </div>
+        <div className='footer--direitos'>© Todos os direitos reservados - 2021</div>
+      </footer>
     </div>
   );
 }
