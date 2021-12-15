@@ -1,23 +1,21 @@
-
-
-.container--featured{
+.container--featured {
   width: 100vw;
   height: 100vh;
   font-family: Roboto;
   font-size: 1.3em;
 }
 
-.container--featured img{
+.container--featured img {
   width: 100%;
   height: 100%;
 }
 
-.featured--vertical{
+.featured--vertical {
   width: inherit;
   height: inherit;
   background: linear-gradient(to top, #222 10%, transparent 90%);
 }
-.featured--horizontal{
+.featured--horizontal {
   width: inherit;
   height: inherit;
   background: linear-gradient(to right, #222 30%, transparent 70%);
@@ -30,17 +28,18 @@
   padding-bottom: 150px;
 }
 
-.featured--title{
+.featured--title {
   font-size: 2em;
   font-weight: bold;
 }
 
-.featured--ratings{
+.featured--ratings {
   margin-top: 15px;
   display: flex;
 }
 
-.featured--description, .featured--tech{
+.featured--description,
+.featured--tech {
   font-size: 1.1em;
   margin-top: 30px;
   max-width: 50%;
@@ -48,34 +47,38 @@
   color: #aaa;
 }
 
-.featured--tech{
+.featured--tech {
   font-size: 1em;
   color: #ccc;
 }
 
-.featured--buttons{
+.featured--buttons {
   margin-top: 20px;
 }
 
-.linkedin, .repo, .page{
+.linkedin,
+.repo,
+.page {
   margin-right: 20px;
   text-decoration: none;
   color: #111;
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 10px;
   background-color: #ccc;
   border-radius: 8px;
   box-shadow: black 2px 2px 5px;
   transition: all ease 0.2s;
 }
-.linkedin:hover, .repo:hover, .page:hover{
+.linkedin:hover,
+.repo:hover,
+.page:hover {
   background-color: white;
 }
 
-.linkedin{
+.linkedin {
   color: rgb(0, 110, 255);
 }
-.page{
+.page {
   color: purple;
 }

@@ -1,4 +1,4 @@
-.header{
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -13,24 +13,25 @@
   transition: all ease 0.2s;
 }
 
-.header--black{
+.header--black {
   background-color: rgba(0, 0, 0, 1);
 }
 
-.header--menu{
+.header--menu {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.header--logo{
+.header--logo {
   font-size: 1.7em;
   font-weight: 600;
   color: rgb(0, 110, 255);
   text-shadow: 1px 1px 1px rgb(158, 158, 158);
 }
 
-.header--menu a, .header--menu div{
+.header--menu a,
+.header--menu div {
   margin-left: 30px;
   cursor: pointer;
   transition: all ease 0.2s;
@@ -38,7 +39,8 @@
   color: white;
   text-decoration: none;
 }
-.header--menu a:hover, .header--menu div:hover{
+.header--menu a:hover,
+.header--menu div:hover {
   color: rgb(74, 150, 250);
   font-weight: bold;
 }

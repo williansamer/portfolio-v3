@@ -1,4 +1,4 @@
-.modal--port{
+.modal--port {
   position: sticky;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@
   justify-content: center;
 }
 
-.modal--port--close{
+.modal--port--close {
   padding: 5px;
   width: 40px;
   margin-top: 50px;
@@ -23,25 +23,24 @@
   align-self: flex-end;
 }
 
-
-.container--port--modal{
+.container--port--modal {
   width: 100vw;
   height: 100vh;
   font-family: Roboto;
   font-size: 1.3em;
 }
 
-.container--port--modal img{
+.container--port--modal img {
   width: 100%;
   height: 100%;
 }
 
-.modal--port--vertical{
+.modal--port--vertical {
   width: inherit;
   height: inherit;
   background: linear-gradient(to top, black 10%, transparent 90%);
 }
-.modal--port--horizontal{
+.modal--port--horizontal {
   width: inherit;
   height: inherit;
   background: linear-gradient(to right, black 30%, transparent 70%);
@@ -54,17 +53,18 @@
   padding-bottom: 150px;
 }
 
-.modal--port--title{
+.modal--port--title {
   font-size: 2em;
   font-weight: bold;
 }
 
-.modal--port--ratings{
+.modal--port--ratings {
   margin-top: 15px;
   display: flex;
 }
 
-.modal--port--description, .modal--port--tech{
+.modal--port--description,
+.modal--port--tech {
   font-size: 1.1em;
   margin-top: 30px;
   max-width: 50%;
@@ -72,34 +72,38 @@
   color: #aaa;
 }
 
-.modal--port--tech{
+.modal--port--tech {
   font-size: 1em;
   color: #ccc;
 }
 
-.modal--port--buttons{
+.modal--port--buttons {
   margin-top: 20px;
 }
 
-.linkedin, .repo, .page{
+.linkedin,
+.repo,
+.page {
   margin-right: 20px;
   text-decoration: none;
   color: #111;
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 10px;
   background-color: #ccc;
   border-radius: 8px;
   box-shadow: black 2px 2px 5px;
   transition: all ease 0.2s;
 }
-.linkedin:hover, .repo:hover, .page:hover{
+.linkedin:hover,
+.repo:hover,
+.page:hover {
   background-color: white;
 }
 
-.linkedin{
+.linkedin {
   color: rgb(0, 110, 255);
 }
-.page{
+.page {
   color: purple;
 }

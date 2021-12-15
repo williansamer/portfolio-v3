@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap");
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: Roboto, Arial;
@@ -17,23 +17,23 @@ body{
   text-align: center;
 }
 
-footer{
+footer {
   margin: 30px;
 }
 
-.footer--title{
+.footer--title {
   color: rgb(0, 110, 255);
   font-weight: bold;
   font-size: 2rem;
 }
 
-.footer--links{
+.footer--links {
   margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer a{
+footer a {
   margin: 0 30px;
   color: #222;
   background-color: #ccc;
@@ -46,10 +46,10 @@ footer a{
   align-items: center;
   transition: all ease 0.2s;
 }
-footer a:hover{
+footer a:hover {
   background-color: white;
 }
 
-.footer--direitos{
+.footer--direitos {
   text-align: right;
 }

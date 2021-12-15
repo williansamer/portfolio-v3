@@ -1,4 +1,4 @@
-.modal--int{
+.modal--int {
   position: sticky;
   top: 0;
   left: 0;
@@ -12,11 +12,11 @@
   justify-content: center;
 }
 
-iframe{
+iframe {
   align-self: center;
 }
 
-.modal--int--close{
+.modal--int--close {
   padding: 5px;
   width: 40px;
   margin-right: 30px;
@@ -26,17 +26,17 @@ iframe{
   align-self: flex-end;
 }
 
-.modal--int--goals{
+.modal--int--goals {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
 }
 
-.modal--int--container{
+.modal--int--container {
   width: 300px;
   text-align: justify;
 }
-.modal--int--title{
+.modal--int--title {
   color: rgb(74, 150, 250);
   font-weight: bold;
   text-align: center;

@@ -2,6 +2,7 @@
 
 - Portfolio mais recente com todos os meus trabalhos, além de uma apresentação de vídeo sobre minha pessoa, meus objetivos e metas.
 
+![portfolio](porfolio.png)
 ## Por que fazer um novo portfolio?
 
 - Busquei deixar um trabalho mais clean e objetivo, mostrando com qualidade todos os meus projetos. 
@@ -10,6 +11,7 @@
 ## Tecnologias Utilizadas:
 
 - ReactJs
+- Context API
 - JavaScript
 - HTML5
 - CSS3

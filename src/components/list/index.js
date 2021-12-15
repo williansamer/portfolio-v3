@@ -1,23 +1,31 @@
-import React, {useContext} from 'react'
-import './index.css'
+import React, { useContext } from "react";
+import "./index.css";
 
-import {MyContext} from '../context/contextAPI'
+import { MyContext } from "../context/contextAPI";
 
 export default function List() {
+  const { data, setModalPortfolio, setItem } = useContext(MyContext);
 
-  const {data, setModalPortfolio, setItem} = useContext(MyContext);
-
-  function handlePortModal(item){
+  function handlePortModal(item) {
     setModalPortfolio(true);
     setItem(item);
   }
 
   return (
-    <div className='container--list'>
-      {data.map((item, index)=>
-      <div onClick={()=>handlePortModal(item)} className='container--list--item' key={index} >
-        <img className='list--item--img' src={`../../images/cover/${item.cover}`} alt="projetos"></img>
-      </div>)}
+    <div className="container--list">
+      {data.map((item, index) => (
+        <div
+          onClick={() => handlePortModal(item)}
+          className="container--list--item"
+          key={index}
+        >
+          <img
+            className="list--item--img"
+            src={`../../images/cover/${item.cover}`}
+            alt="projetos"
+          ></img>
+        </div>
+      ))}
     </div>
-  )
+  );
 }

@@ -1,18 +1,26 @@
-import React, {useContext} from 'react'
-import './index.css'
+import React, { useContext } from "react";
+import "./index.css";
 
-import { MyContext } from '../context/contextAPI';
+import { MyContext } from "../context/contextAPI";
 
 export default function Header() {
-  const {blackHeader, modalIntroduce, setModalIntroduce} = useContext(MyContext);
+  const { blackHeader, modalIntroduce, setModalIntroduce } =
+    useContext(MyContext);
 
   return (
     <header className={!blackHeader ? "header" : "header header--black"}>
-      <div className='header--logo'>Willian Samer</div>
-      <div className='header--menu'>
-        <div onClick={()=>modalIntroduce ?  setModalIntroduce(false) : setModalIntroduce(true)} style={{fontSize: '1.4em'}}>Apresentação</div>
-        <a href='#contatos'>Contato</a>
+      <div className="header--logo">Willian Samer</div>
+      <div className="header--menu">
+        <div
+          onClick={() =>
+            modalIntroduce ? setModalIntroduce(false) : setModalIntroduce(true)
+          }
+          style={{ fontSize: "1.4em" }}
+        >
+          Apresentação
+        </div>
+        <a href="#contatos">Contato</a>
       </div>
     </header>
-  )
+  );
 }

@@ -1,19 +1,19 @@
-.container--list{
+.container--list {
   margin-top: -110px;
 }
 
-.container--list--item{
+.container--list--item {
   width: 200px;
   display: inline-block;
   margin-right: 5px;
 }
 
-.list--item--img{
+.list--item--img {
   width: inherit;
   transform: scale(0.9);
   transition: all ease 0.2s;
   cursor: pointer;
 }
-.list--item--img:hover{
+.list--item--img:hover {
   transform: scale(1);
 }
