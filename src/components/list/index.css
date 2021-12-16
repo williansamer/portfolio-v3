@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 760px) {
   .container--list {
-    margin-top: -140px;
+    margin-top: -180px;
     text-align: center;
   }
   .container--list--item {
