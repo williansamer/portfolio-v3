@@ -1,6 +1,6 @@
 {
   "name": "portfolio-v3",
-  "homepage": "https://github.com/williansamer/portfolio-v3.git",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
