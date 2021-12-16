@@ -27,11 +27,11 @@ function App() {
             rel="noreferrer"
             href="https://www.linkedin.com/in/willian-samer-oliveira-796ab3221/"
           >
-            <img src="./images/icons/linkedin.png" alt="linkedin" />
+            <img src="/portfolio-v3/images/icons/linkedin.png" alt="linkedin" />
             Linkedin
           </a>
           <a target="_blank" rel="noreferrer" href="https://web.whatsapp.com/">
-            <img src="./images/icons/whatsapp.png" alt="whatsapp" />
+            <img src="/portfolio-v3/images/icons/whatsapp.png" alt="whatsapp" />
             17 981622464
           </a>
           <a
@@ -39,7 +39,7 @@ function App() {
             rel="noreferrer"
             href="https://github.com/williansamer"
           >
-            <img src="./images/icons/github.png" alt="linkedin" />
+            <img src="/portfolio-v3/images/icons/github.png" alt="linkedin" />
             GitHub
           </a>
         </div>

@@ -11,7 +11,7 @@ export default function Featured() {
       <div
         className="container--featured"
         style={{
-          backgroundImage: `url(../../images/featured/${featuredData.featuredCover})`,
+          backgroundImage: `url(/portfolio-v3/images/featured/${featuredData.featuredCover})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
