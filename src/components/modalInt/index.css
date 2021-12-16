@@ -57,6 +57,8 @@ iframe {
 
   .modal--int--goals {
     flex-direction: column;
+    margin-top: -10px;
+    z-index: 9;
   }
 
   .modal--int--container {
