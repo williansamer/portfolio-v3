@@ -14,6 +14,8 @@
 
 iframe {
   align-self: center;
+  width: 728px;
+  height: 409px;
 }
 
 .modal--int--close {
@@ -41,4 +43,24 @@ iframe {
   font-weight: bold;
   text-align: center;
   margin-bottom: 5px;
+}
+
+@media screen and (max-width: 760px) {
+  iframe {
+    align-self: center;
+    width: 350px;
+  }
+
+  .modal--int--close {
+    margin-right: 10px;
+  }
+
+  .modal--int--goals {
+    flex-direction: column;
+  }
+
+  .modal--int--container {
+    width: 100%;
+    padding: 10px;
+  }
 }
