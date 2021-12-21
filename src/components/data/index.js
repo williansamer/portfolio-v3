@@ -1,6 +1,21 @@
 const portfolio = [
   {
     slug: "portfolio",
+    id: 110,
+    title: "CRUD usando TypeORM",
+    cover: "typeorm.png",
+    description:
+      "Desenvolvendo um sistema CRUD com novas ferramentas a serem aprendidas. Criado duas tabelas: Video e Categoria. Tem um relacionamento entre essas tabelas. Criado um sistema de CRUD para das duas tabelas.",
+    hardness: "8",
+    tech: "NodeJs, Express, TypeORM, TypeScript, PostgreSQL",
+    featuredCover: "typeormCover.png",
+    linkedin: "https://www.linkedin.com/in/willian-samer-oliveira-796ab3221/",
+    gitRepo: "https://github.com/williansamer/CRUD-TypeORM",
+    gitPage: "",
+    createdAt: "Dezembro 2021",
+  },
+  {
+    slug: "portfolio",
     id: 111,
     title: "Clone do NetFlix",
     cover: "netflix.png",
