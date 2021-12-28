@@ -39,15 +39,14 @@ function App() {
             rel="noreferrer"
             href="https://github.com/williansamer"
           >
-            <img src="./images/icons/github.png" alt="github" />
+            <img src="/portfolio-v3/images/icons/github.png" alt="github" />
             GitHub
           </a>
           <a
-            target="_blank"
             rel="noreferrer"
             href="mailto:willian.samer@gmail.com"
           >
-            <img src="./images/icons/email.png" alt="email" />
+            <img src="/portfolio-v3/images/icons/email.png" alt="email" />
             willian.samer@gmail.com
           </a>
         </div>
