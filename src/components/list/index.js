@@ -21,8 +21,8 @@ export default function List() {
         >
           <img
             className="list--item--img"
-            src={`../../images/cover/${item.cover}`}
-            alt="projetos"
+            src={`/portfolio-v3/images/cover/${item.cover}`}
+            alt={`${item.cover}`}
           ></img>
         </div>
       ))}

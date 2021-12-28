@@ -15,7 +15,6 @@ export default function Header() {
           onClick={() =>
             modalIntroduce ? setModalIntroduce(false) : setModalIntroduce(true)
           }
-          style={{ fontSize: "1.4em" }}
         >
           Apresentação
         </div>

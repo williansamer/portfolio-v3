@@ -44,3 +44,19 @@
   color: rgb(74, 150, 250);
   font-weight: bold;
 }
+
+.header--menu div{
+  font-size: 1.4em;
+}
+
+@media screen and (max-width: 760px) {
+  .header--logo{
+    font-size: 1.2em;
+  }
+
+  .header--menu a,
+  .header--menu div {
+    margin-left: 12px;
+    font-size: 0.9em;
+  }
+}

@@ -107,3 +107,38 @@
 .page {
   color: purple;
 }
+
+@media screen and (max-width: 760px) {
+  .modal--port--close {
+    margin-right: 10px;
+  }
+
+  .container--port--modal {
+    font-size: 1em;
+  }
+
+  .modal--port--horizontal {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(0,0,0,0.5);
+  }
+
+  .modal--port--ratings {
+    margin-top: 10px;
+  }
+
+  .modal--port--description,
+  .modal--port--tech {
+    max-width: 100%;
+    text-align: justify;
+  }
+
+  .modal--port--tech {
+    font-size: 0.9em;
+  }
+
+  .modal--port--buttons {
+    margin-top: 40px;
+  }
+}

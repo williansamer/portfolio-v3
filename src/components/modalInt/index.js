@@ -23,11 +23,11 @@ export default function ModalInt() {
         className="modal--int--video"
         width="728"
         height="409"
-        src="https://www.youtube.com/embed/uk2hhEw59HA"
+        src="https://www.youtube.com/embed/-Fjbnn5oi6Y"
         title="YouTube video player"
-        frameBorder="0"
+        frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
+        allowfullscreen
       ></iframe>
 
       <div className="modal--int--goals">

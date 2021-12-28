@@ -21,7 +21,7 @@ export default function ModalPort() {
         <div
           className="container--port--modal"
           style={{
-            backgroundImage: `url(../../images/featured/${item.featuredCover})`,
+            backgroundImage: `url(/portfolio-v3/images/featured/${item.featuredCover})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
