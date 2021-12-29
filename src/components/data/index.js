@@ -1,6 +1,21 @@
 const portfolio = [
   {
     slug: "portfolio",
+    id: 109,
+    title: "API - Delivery",
+    cover: "apiprisma.png",
+    description:
+      "API COMPLETO de Entrega utilizando todos os fundamentos de criação, busca e atualização de entregas, clientes e entregadores. Utilizado também o Prisma que é um ótimo framework de criação de tabelas e Json Web Token para validação, criptografado os dados do password e feito as tratativas de erros. Além de usar o Banco de Dados PostgreSQL",
+    hardness: "8",
+    tech: "NodeJs, Prisma, PostgreSQL, JWT, TypeScript e Express.",
+    featuredCover: "apiprismaCover.png",
+    linkedin: "https://www.linkedin.com/in/willian-samer-oliveira-796ab3221/",
+    gitRepo: "https://github.com/williansamer/Prisma-Deliveries",
+    gitPage: "",
+    createdAt: "Dezembro 2021",
+  },
+  {
+    slug: "portfolio",
     id: 110,
     title: "CRUD usando TypeORM",
     cover: "typeorm.png",
