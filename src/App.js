@@ -25,7 +25,7 @@ function App() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/williansamerdeoliveira/"
+            href="https://www.linkedin.com/in/williansamer/"
           >
             <img src="/portfolio-v3/images/icons/linkedin.png" alt="linkedin" />
             Linkedin
