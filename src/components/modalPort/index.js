@@ -54,7 +54,7 @@ export default function ModalPort() {
               <div className="modal--port--buttons">
                 <a
                   className="linkedin"
-                  href="https://www.linkedin.com/in/willian-samer-oliveira-796ab3221/"
+                  href={item.linkedin}
                   target="_blank"
                   rel="noreferrer"
                 >

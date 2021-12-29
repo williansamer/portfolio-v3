@@ -43,7 +43,7 @@ export default function Featured() {
             <div className="featured--buttons">
               <a
                 className="linkedin"
-                href="https://www.linkedin.com/in/willian-samer-oliveira-796ab3221/"
+                href={featuredData.linkedin}
                 target="_blank"
                 rel="noreferrer"
               >
