@@ -1,6 +1,21 @@
 const portfolio = [
   {
     slug: "portfolio",
+    id: 108,
+    title: "ATM",
+    cover: "challengefrente.png",
+    description:
+      "Idéia de ATM que enviará o dinheiro para a casa dos seus cliente. Agência precisa de uma interface gráfica para que seus clientes possam se cadastrar e operar seus pedidos.(80% finalizada)",
+    hardness: "9",
+    tech: "NodeJs, Prisma, SQLite, JWT, TypeScript, ExpressJs e ReactJs.",
+    featuredCover: "challengefrenteCover.png",
+    linkedin: "https://www.linkedin.com/in/williansamer/",
+    gitRepo: "https://github.com/williansamer/teste-admissao/tree/master",
+    gitPage: "",
+    createdAt: "Janeiro 2022",
+  },
+  {
+    slug: "portfolio",
     id: 109,
     title: "API - Delivery",
     cover: "apiprisma.png",
